@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Actividad Segundo Corte JS</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center" id="h1-main">Registro de Actividades &#9989;</h1>
+      <button id="darkModeBtn" class="btn btn-dark btn-sm">&#127774;</button>
+      <br />
+      <div class="notebook">
+        <div class="form-group">
+          <div class="input-group">
+            <input
+              type="text"
+              id="taskInput"
+              class="form-control"
+              placeholder="Añadir Actividad"
+            />
+            <div class="input-group-append">
+              <button id="addTaskBtn" class="btn btn-primary">
+                Añadir Actividad
+              </button>
+            </div>
+          </div>
+          <div id="noTasksMessage" class="text-center" style="display: none;"></div>
+        </div>
+        <div class="row" id="taskList"></div>
+      </div>
+      <div id="errorMessageContainer" class="text-center"></div>
+    </div>
+
+    <script src="assets/js/App.js"></script>
+  </body>
+</html>

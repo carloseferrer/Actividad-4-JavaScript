@@ -1,0 +1,139 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.notebook {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-delete,
+.btn-edit {
+  margin-top: 15px;
+  font-size: 16px;
+  padding: 6px 12px;
+  margin-left: 1px;
+  margin-right: 8px;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+  border-color: #e0a800;
+}
+
+#errorMessageContainer {
+  margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .notebook {
+    padding: 15px;
+  }
+}
+
+input:focus,
+select:focus,
+select,
+input.form-control:focus {
+  outline: none !important;
+
+  outline-width: 0 !important;
+
+  box-shadow: none;
+
+  -moz-box-shadow: none;
+
+  -webkit-box-shadow: none;
+}
+
+#darkModeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  line-height: 1;
+}
+
+body.dark-mode {
+  background-color: #333333;
+}
+
+#h1-main.dark-mode{
+    color: white !important;
+}
+
+
+.notebook.dark-mode {
+  background-color: #1a1a1a;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+input.form-control.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn.dark-mode {
+  background-color: #343a40;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn.dark-mode:hover {
+  background-color: #1a1a1a;
+  border-color: #ffffff;
+}
